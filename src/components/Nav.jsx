@@ -4,10 +4,15 @@ import "./buttoneffect.css";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpensec, setIsOpensec] = useState(false);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+
+   const toggleDropdownsec = () => {
+     setIsOpensec(!isOpensec);
+   };
   return (
     <div className="nav bg-white">
       <div className="nav flex flex-row gap-4">
@@ -120,7 +125,7 @@ const Nav = () => {
               className="text-black bg-white-700 hover:bg-white-800 focus:ring-4 focus:outline-none focus:ring-white-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-white-600 dark:hover:bg-white-700 dark:focus:ring-white-800"
               type="button"
             >
-              Dropdown button{" "}
+              Solutions and Services{" "}
               <svg
                 className="w-2.5 h-2.5 ms-3"
                 aria-hidden="true"
@@ -188,11 +193,11 @@ const Nav = () => {
           <div className="relative">
             <button
               id="dropdownDefaultButton"
-              onClick={toggleDropdown}
+              onClick={toggleDropdownsec}
               className="text-black bg-white-700 hover:bg-white-800 focus:ring-4 focus:outline-none focus:ring-white-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-white-600 dark:hover:bg-white-700 dark:focus:ring-white-800"
               type="button"
             >
-              Dropdown button{" "}
+              Resources
               <svg
                 className="w-2.5 h-2.5 ms-3"
                 aria-hidden="true"
@@ -214,7 +219,7 @@ const Nav = () => {
             <div
               id="dropdown"
               className={`z-10 ${
-                isOpen ? "block" : "hidden"
+                isOpensec ? "block" : "hidden"
               } bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 absolute`}
             >
               <ul
