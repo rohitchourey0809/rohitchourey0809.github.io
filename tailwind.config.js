@@ -7,7 +7,9 @@ module.exports = {
         clifford: "#da373d",
         header: "#241c15",
         cream: "#e7b75f",
-        custom1:"#dfd9d3"
+        custom1: "#dfd9d3",
+        custom2: "#d99536",
+        custom3: "#241c15",
       },
     },
   },

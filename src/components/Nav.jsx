@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Nav.css";
+import "./buttoneffect.css";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -271,14 +272,15 @@ const Nav = () => {
           <div className="flex items-center space-x-4 ml-40">
             <div>Sales: +1 (800) 315-593</div>
             <div>
-              <button className="button-56 bg-rose-50 border border-black rounded-lg text-black font-inter font-medium text-lg h-12 flex items-center justify-center px-10 relative transition duration-200 hover:bg-black hover:text-white focus:outline-none">
-                Signup
+              <button className="button-74 " type="button">
+                Login
               </button>
             </div>
             <div>
-              <button className="button-56 bg-rose-50 border border-black rounded-lg text-black font-inter font-medium text-lg h-12 flex items-center justify-center px-10 relative transition duration-200 hover:bg-black hover:text-white focus:outline-none">
-                Login
+              <button className="button-74" type="button">
+                Signup
               </button>
+              {/* <button>Button 74</button> */}
             </div>
           </div>
         </nav>

@@ -18,18 +18,8 @@ const Sectiona = () => {
           platform* that recommends ways to get more opens, clicks, and sales.
         </center>
         <div className="flex items-center justify-center mt-10 md:mt-12 lg:mt-16">
-          <div className="mx-4">
-            <a
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 ease-in-out"
-              href="/pricing/marketing/"
-              aria-label="Sign Up"
-              onclick="window.tr.clickEvent(this, 'e_click')"
-              onauxclick="if(event.button === 1){window.tr.clickEvent(this, 'e_click')}"
-              data-onclickmeta='{"category":"hero","action":"click","label":"button:sign up:turn emails into revenue"}'
-              data-event-handler="manual"
-            >
-              Sign Up
-            </a>
+          <div className="mx-4 button-74">
+            <a href="/">Sign Up</a>
           </div>
         </div>
       </div>
