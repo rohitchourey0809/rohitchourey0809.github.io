@@ -1,7 +1,31 @@
 import React from "react";
 import "./Nav.css";
+import LocomotiveScroll from "locomotive-scroll";
+import ScrollFeatures from "./Scroll";
 
 const Sectionb = () => {
+  const details = [
+    {
+      src: "./first.png",
+      heading: "Convert more customers at scale",
+      subheading:
+        "Drive more traffic and sales by setting up automations that trigger emails based on customer behavior with our Customer Journey Builder.",
+    },
+    {
+      src: "./second.png",
+      heading: "Discover new ways to automate",
+      subheading:
+        "Get a head start with pre-built journeys that help you cross-sell your products, recover carts.",
+    },
+    {
+      src: "./third.png",
+      heading: "Keep your emails relevant and your brand growing",
+      subheading:
+        "Deliver personalized emails based on their buying behavior, survey responses,etc.",
+    },
+  ];
+
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div>
       <div
@@ -9,42 +33,42 @@ const Sectionb = () => {
         data-behavior="p23FeatureCard"
         data-module-id="p23FeatureCard"
         data-entry-id="3aLppN5J2pIjLq2KKyiodE"
-        class="font-bold text-center font-serif"
+        className="font-bold text-center font-serif"
       >
-        <div class="flex flex-col gap-4 text-wrap bg-custom1 p-4 md:flex-row md:p-5">
+        <div className="flex flex-col gap-4 text-wrap bg-custom1 p-4 md:flex-row md:p-5">
           <div
             data-behavior="p23FeatureCardItem"
-            class="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
+            className="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
           >
             <a
-              class="p23FeatureCard__head"
+              className="p23FeatureCard__head"
               data-behavior="p23FeatureCardHead"
               aria-label="Convert with email automations "
               href="/solutions/marketing-automation-tools/"
             >
-              <h2 class="hover:underline text-lg md:text-xl">
+              <h2 className="hover:underline text-lg md:text-xl">
                 Convert with email automations
               </h2>
-              <figure class="p23FeatureCard__image">
+              <figure className="p23FeatureCard__image">
                 <img
                   src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
                   alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                  class="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
+                  className="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
                 />
               </figure>
             </a>
-            <div class="">
-              <p class="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
+            <div className="">
+              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
                 Boost orders and customer lifetime value by dynamically
                 personalizing emails based on browsing and purchase data.
               </p>
-              <div class="p23FeatureCard__ctas bg-custom2">
+              <div className="p23FeatureCard__ctas bg-custom2">
                 <a
-                  class="ctaSecondary .button-30"
+                  className="ctaSecondary .button-30"
                   href="https://mailchimp.com/solutions/marketing-automation-tools/"
                   aria-label="Explore marketing automation  "
                 >
-                  <button class="button-30">
+                  <button className="button-30">
                     Explore marketing automation
                   </button>
                 </a>
@@ -53,37 +77,37 @@ const Sectionb = () => {
           </div>
           <div
             data-behavior="p23FeatureCardItem"
-            class="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
+            className="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
           >
             <a
-              class="p23FeatureCard__head"
+              className="p23FeatureCard__head"
               data-behavior="p23FeatureCardHead"
               aria-label="Convert with email automations "
               href="/solutions/marketing-automation-tools/"
             >
-              <h2 class="hover:underline text-lg md:text-xl">
+              <h2 className="hover:underline text-lg md:text-xl">
                 Convert with email automations
               </h2>
-              <figure class="p23FeatureCard__image">
+              <figure className="p23FeatureCard__image">
                 <img
                   src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
                   alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                  class="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
+                  className="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
                 />
               </figure>
             </a>
-            <div class="">
-              <p class="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
+            <div className="">
+              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
                 Boost orders and customer lifetime value by dynamically
                 personalizing emails based on browsing and purchase data.
               </p>
-              <div class="p23FeatureCard__ctas bg-custom2">
+              <div className="p23FeatureCard__ctas bg-custom2">
                 <a
-                  class="ctaSecondary .button-30"
+                  className="ctaSecondary .button-30"
                   href="https://mailchimp.com/solutions/marketing-automation-tools/"
                   aria-label="Explore marketing automation  "
                 >
-                  <button class="button-30">
+                  <button className="button-30">
                     Explore marketing automation
                   </button>
                 </a>
@@ -92,37 +116,37 @@ const Sectionb = () => {
           </div>
           <div
             data-behavior="p23FeatureCardItem"
-            class="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
+            className="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
           >
             <a
-              class="p23FeatureCard__head"
+              className="p23FeatureCard__head"
               data-behavior="p23FeatureCardHead"
               aria-label="Convert with email automations "
               href="/solutions/marketing-automation-tools/"
             >
-              <h2 class="hover:underline text-lg md:text-xl">
+              <h2 className="hover:underline text-lg md:text-xl">
                 Convert with email automations
               </h2>
-              <figure class="p23FeatureCard__image">
+              <figure className="p23FeatureCard__image">
                 <img
                   src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
                   alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                  class="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
+                  className="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
                 />
               </figure>
             </a>
-            <div class="">
-              <p class="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
+            <div className="">
+              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
                 Boost orders and customer lifetime value by dynamically
                 personalizing emails based on browsing and purchase data.
               </p>
-              <div class="p23FeatureCard__ctas bg-custom2">
+              <div className="p23FeatureCard__ctas bg-custom2">
                 <a
-                  class="ctaSecondary .button-30"
+                  className="ctaSecondary .button-30"
                   href="https://mailchimp.com/solutions/marketing-automation-tools/"
                   aria-label="Explore marketing automation  "
                 >
-                  <button class="button-30">
+                  <button className="button-30">
                     Explore marketing automation
                   </button>
                 </a>
@@ -131,37 +155,37 @@ const Sectionb = () => {
           </div>
           <div
             data-behavior="p23FeatureCardItem"
-            class="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
+            className="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
           >
             <a
-              class="p23FeatureCard__head"
+              className="p23FeatureCard__head"
               data-behavior="p23FeatureCardHead"
               aria-label="Convert with email automations "
               href="/solutions/marketing-automation-tools/"
             >
-              <h2 class="hover:underline text-lg md:text-xl">
+              <h2 className="hover:underline text-lg md:text-xl">
                 Convert with email automations
               </h2>
-              <figure class="p23FeatureCard__image">
+              <figure className="p23FeatureCard__image">
                 <img
                   src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
                   alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                  class="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
+                  className="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
                 />
               </figure>
             </a>
-            <div class="">
-              <p class="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
+            <div className="">
+              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
                 Boost orders and customer lifetime value by dynamically
                 personalizing emails based on browsing and purchase data.
               </p>
-              <div class="p23FeatureCard__ctas bg-custom2">
+              <div className="p23FeatureCard__ctas bg-custom2">
                 <a
-                  class="ctaSecondary .button-30"
+                  className="ctaSecondary .button-30"
                   href="https://mailchimp.com/solutions/marketing-automation-tools/"
                   aria-label="Explore marketing automation  "
                 >
-                  <button class="button-30">
+                  <button className="button-30">
                     Explore marketing automation
                   </button>
                 </a>
@@ -172,58 +196,60 @@ const Sectionb = () => {
         </div>
       </div>
 
-      <div class="thirdcontainer">
-        <div class="flex flex-col md:flex-row font-bold bg-custom3 text-white p-8 md:p-40 gap-8">
-          <div class="md:w-1/3">
-            <b class="text-2xl md:text-4xl max-w-sm md:max-w-10">
-              Find out why we’re best-in-class
+      <div className="thirdcontainer">
+        <div className="flex flex-col md:flex-row font-bold bg-custom3 text-white p-8 md:p-40 gap-8">
+          <div className="md:w-1/3">
+            <b className="text-2xl md:text-4xl max-w-sm md:max-w-10">
+              Find out why we’re best-in-className
             </b>
-            <p class="text-lg md:text-base text-wrap max-w-sm md:max-w-lg mt-4 md:mt-10">
+            <p className="text-lg md:text-base text-wrap max-w-sm md:max-w-lg mt-4 md:mt-10">
               The #1 email marketing and automations platform* that recommends
               ways to get more opens, clicks, and sales.
             </p>
           </div>
 
-          <div class="md:w-1/3">
+          <div className="md:w-1/3">
             <div>
-              <p class="text-sm md:text-base">
+              <p className="text-sm md:text-base">
                 Up to 39x ROI seen by Mailchimp users*
               </p>
-              <p class="text-sm md:text-base">seen by Mailchimp users*</p>
+              <p className="text-sm md:text-base">seen by Mailchimp users*</p>
             </div>
-            <div class="mt-4 md:mt-20">
-              <p class="text-sm md:text-base">12M+ Users of</p>
-              <p class="text-sm md:text-base">Mailchimp globally</p>
+            <div className="mt-4 md:mt-20">
+              <p className="text-sm md:text-base">12M+ Users of</p>
+              <p className="text-sm md:text-base">Mailchimp globally</p>
             </div>
           </div>
 
-          <div class="md:w-1/3">
+          <div className="md:w-1/3">
             <div>
-              <p class="text-sm md:text-base">22 years experience</p>
-              <p class="text-sm md:text-base">helping businesses sell more</p>
+              <p className="text-sm md:text-base">22 years experience</p>
+              <p className="text-sm md:text-base">
+                helping businesses sell more
+              </p>
             </div>
-            <div class="mt-4 md:mt-20">
-              <p class="text-sm md:text-base">$1.7K per campaign</p>
-              <p class="text-sm md:text-base">generated on average*</p>
+            <div className="mt-4 md:mt-20">
+              <p className="text-sm md:text-base">$1.7K per campaign</p>
+              <p className="text-sm md:text-base">generated on average*</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="fourthcontainer">
-        <div class="module--content align--center">
-          <div class="flex flex-col md:flex-row gap-4 align-center p-4 md:p-20">
-            <div class="flex flex-col gap-4 justify-center p-4 md:p-10 text-wrap max-w-md md:max-w-2xl">
-              <h2 class="font-bold text-2xl md:text-4xl font-serif">
+      <div className="fourthcontainer">
+        <div className="module--content align--center">
+          <div className="flex flex-col md:flex-row gap-4 align-center p-4 md:p-20">
+            <div className="flex flex-col gap-4 justify-center p-4 md:p-10 text-wrap max-w-md md:max-w-2xl">
+              <h2 className="font-bold text-2xl md:text-4xl font-serif">
                 Get started easily with a personalized product tour
               </h2>
-              <p class="text-wrap">
+              <p className="text-wrap">
                 An onboarding specialist is here to help you get started with
                 confidence—it’s included with Standard and Premium plans.*
               </p>
-              <div class="cta__holder cta__p23_arrow_link">
+              <div className="cta__holder cta__p23_arrow_link">
                 <a
-                  class="ctaArrow"
+                  className="ctaArrow"
                   href="/services/onboarding/"
                   aria-label="Learn more about onboarding"
                 >
@@ -231,19 +257,23 @@ const Sectionb = () => {
                 </a>
               </div>
             </div>
-            <div class="column column2">
-              <figure class="image animate--show" data-animate="fade-up-in">
+            <div className="column column2">
+              <figure className="image animate--show" data-animate="fade-up-in">
                 <img
                   src="https://eep.io/images/yzco4xsimv0y/eeOxTgGvLZjag4xB9SK7h/18bbe5f5514e075ae697322976223c1f/Onboarding_Placement_-_Woman_on_phone_and_laptop.png?w=640&amp;q=70"
                   alt="A small business owner reaching out to her Mailchimp Onboarding Specialist."
                   width="320"
                   height="221"
-                  class="w-full md:w-auto"
+                  className="w-full md:w-auto"
                 />
               </figure>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="scroll">
+        <ScrollFeatures details={details} />
       </div>
 
       <div className="fifthcontainer">
@@ -395,158 +425,158 @@ const Sectionb = () => {
           <div className="rightcont"></div>
         </div>
       </div>
-      <div class="sixthcontainer p-4 md:p-8">
-        <div class="maindiv flex flex-col md:flex-row gap-4 md:gap-6">
-          <div class="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+      <div className="sixthcontainer p-4 md:p-8">
+        <div className="maindiv flex flex-col md:flex-row gap-4 md:gap-6">
+          <div className="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
             </div>
 
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
             </div>
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+          <div className="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
             </div>
 
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
             </div>
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+          <div className="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
             </div>
 
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
             </div>
-            <div class="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                class="w-20 h-20"
+                className="w-20 h-20"
               />
-              <div class="contentdiv  items-center md:items-start">
-                <p class="text-center md:text-left font-bold text-black">
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
                   Canva
                 </p>
-                <p class="text-center md:text-left text-gray-500 font-mono">
+                <p className="text-center md:text-left text-gray-500 font-mono">
                   Create Compelling Visuals for your marketing
                 </p>
               </div>
