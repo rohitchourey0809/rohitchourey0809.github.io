@@ -6,6 +6,8 @@ import H1 from "../H1.avif";
 import H2 from "../H2.avif";
 import H3 from "../H3.avif";
 import H4 from "../H4.avif";
+import ScrollFeaturespart from "./ScrollFeaturespart";
+import H5 from "../H5.png";
 
 const Sectionb = () => {
   const details = [
@@ -28,6 +30,36 @@ const Sectionb = () => {
         "Deliver personalized emails based on their buying behavior, survey responses,etc.",
     },
   ];
+
+  const detailspart = [
+    {
+      src: "./first.png",
+      heading: "Predict who’s likely to buy again",
+      subheading:
+        "Create segments of customers based on their lifetime value and likelihood to purchase.",
+    },
+    {
+      src: "./second.png",
+      heading: "Build customers for life",
+      subheading:
+        "Use our intelligent predictions to tighten your targeting strategy,repeat sales.",
+    },
+  ];
+
+  const [second_details, setsecond_details] = useState([
+    {
+      src: "./first.png",
+      heading: "Predict who’s likely to buy again",
+      subheading:
+        "Create segments of customers based on their lifetime value and likelihood to purchase.",
+    },
+    {
+      src: "./second.png",
+      heading: "Build customers for life",
+      subheading:
+        "Use our intelligent predictions to tighten your targeting strategy,repeat sales.",
+    },
+  ]);
 
   const locomotiveScroll = new LocomotiveScroll();
   return (
@@ -201,6 +233,35 @@ const Sectionb = () => {
 
       <div className="scroll mt-2 overflow-x-auto">
         <ScrollFeatures details={details} />
+      </div>
+      <div className="mt-2 mb-5">
+        <div className="component-7 h-screen w-full flex font-mono text-wrap overflow-hidden">
+          <div className="right w-1/2 h-full bg-yellow-400">
+            <div className="mt-32 mx-auto w-3/4">
+              <p className="text-4xl font-bold">
+                Keep customers ready to buy with engaging content
+              </p>
+              <p className="ml-8 my-5 text-2xl">Content Optimizer</p>
+              <p>
+                Learn how your emails compare to the top-performing campaigns in
+                your industry and get data-driven suggestions for improving your
+                copy, imagery, and layout.
+              </p>
+              <hr className="my-5 border-black" />
+              <p className="ml-8 my-5 ">Creative Assistant</p>
+              <hr className="my-5 border-black" />
+              <p className="ml-8 my-5 ">GDPR ready tools</p>
+            </div>
+          </div>
+          <img src={H5} alt="" className="h-full w-1/2" />
+        </div>
+      </div>
+      <center className="font-bold text-4xl mt-4 p-8 ">
+        Get up to 141% more revenue* with our Customer Lifetime Value and
+        Likelihood to Purchase segments
+      </center>
+      <div className="scroll mt-2 overflow-x-auto">
+        <ScrollFeaturespart details={detailspart} />
       </div>
 
       <div className="fifthcontainer mt-20">
