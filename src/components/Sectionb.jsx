@@ -32,90 +32,88 @@ const Sectionb = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="">
-      <div className="wrapper">
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-auto font-serif mt-auto bg-custom4 mb-20 p-10 ">
-          <div className="card1 h-full flex flex-col items-center">
-            <div className="top1 w-full h-[15%] p-5">
-              <h1 className="text-2xl text-center">
-                Convert with email automations
-              </h1>
-            </div>
-            <img
-              src={H1}
-              alt="ImageAlt0Text"
-              className="w-full h-auto hover:scale-110 transition-transform duration-300"
-            />
-            <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-              <p className="text-[1.2rem] mt-4">
-                Boost orders and customer lifetime value by dynamically
-                personalizing emails based on browsing and purchase data.
-              </p>
-              <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
-                Explore marketing automation
-              </button>
-            </div>
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-auto font-serif mt-auto bg-custom4 mb-20 p-10 ">
+        <div className="card1 h-full flex flex-col items-center">
+          <div className="top1 w-full h-[15%] p-5">
+            <h1 className="text-2xl text-center">
+              Convert with email automations
+            </h1>
           </div>
-          <div className="card1 h-full flex flex-col items-center">
-            <div className="top1 w-full h-[15%] p-5">
-              <h1 className="text-2xl text-center">
-                Create faster with generative AI
-              </h1>
-            </div>
-            <img
-              src={H2}
-              alt="ImageAlt0Text"
-              className="w-full h-auto hover:scale-110 transition-transform duration-300"
-            />
-            <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-              <p className="text-[1.2rem] mt-4">
-                Effortlessly create on-brand content with generative AI tools
-                and choose from expertly designed templates.
-              </p>
-              <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
-                Explore AI tools
-              </button>
-            </div>
+          <img
+            src={H1}
+            alt="ImageAlt0Text"
+            className="w-full h-auto hover:scale-110 transition-transform duration-300"
+          />
+          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+            <p className="text-[1.2rem] mt-4">
+              Boost orders and customer lifetime value by dynamically
+              personalizing emails based on browsing and purchase data.
+            </p>
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+              Explore marketing automation
+            </button>
           </div>
-          <div className="card1 h-full flex flex-col items-center">
-            <div className="top1 w-full h-[15%] p-5">
-              <h1 className="text-2xl text-center">Refine with Segmentation</h1>
-            </div>
-            <img
-              src={H3}
-              alt="ImageAlt0Text"
-              className="w-full h-auto hover:scale-110 transition-transform duration-300"
-            />
-            <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-              <p className="text-[1.2rem] mt-4">
-                Target customers with advanced logic like spend amounts, buying
-                behavior, and predicted attributes.
-              </p>
-              <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
-                Explore audience management
-              </button>
-            </div>
+        </div>
+        <div className="card1 h-full flex flex-col items-center">
+          <div className="top1 w-full h-[15%] p-5">
+            <h1 className="text-2xl text-center">
+              Create faster with generative AI
+            </h1>
           </div>
-          <div className="card1 h-full flex flex-col items-center">
-            <div className="top1 w-full h-[15%] p-5">
-              <h1 className="text-2xl text-center">
-                {" "}
-                Optimize with analytics and reporting
-              </h1>
-            </div>
-            <img
-              src={H4}
-              alt="ImageAlt0Text"
-              className="w-full h-auto hover:scale-110 transition-transform duration-300"
-            />
-            <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-              <p className="text-[1.2rem] mt-4">
-                Analyze performance with custom reports, funnel visualizations,
-                and industry benchmarking.
-              </p>
-              <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
-                Explore analytics & reporting
-              </button>
-            </div>
+          <img
+            src={H2}
+            alt="ImageAlt0Text"
+            className="w-full h-auto hover:scale-110 transition-transform duration-300"
+          />
+          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+            <p className="text-[1.2rem] mt-4">
+              Effortlessly create on-brand content with generative AI tools and
+              choose from expertly designed templates.
+            </p>
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+              Explore AI tools
+            </button>
+          </div>
+        </div>
+        <div className="card1 h-full flex flex-col items-center">
+          <div className="top1 w-full h-[15%] p-5">
+            <h1 className="text-2xl text-center">Refine with Segmentation</h1>
+          </div>
+          <img
+            src={H3}
+            alt="ImageAlt0Text"
+            className="w-full h-auto hover:scale-110 transition-transform duration-300"
+          />
+          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+            <p className="text-[1.2rem] mt-4">
+              Target customers with advanced logic like spend amounts, buying
+              behavior, and predicted attributes.
+            </p>
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+              Explore audience management
+            </button>
+          </div>
+        </div>
+        <div className="card1 h-full flex flex-col items-center">
+          <div className="top1 w-full h-[15%] p-5">
+            <h1 className="text-2xl text-center">
+              {" "}
+              Optimize with analytics and reporting
+            </h1>
+          </div>
+          <img
+            src={H4}
+            alt="ImageAlt0Text"
+            className="w-full h-auto hover:scale-110 transition-transform duration-300"
+          />
+          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+            <p className="text-[1.2rem] mt-4">
+              Analyze performance with custom reports, funnel visualizations,
+              and industry benchmarking.
+            </p>
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+              Explore analytics & reporting
+            </button>
           </div>
         </div>
       </div>
