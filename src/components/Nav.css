@@ -1,3 +1,111 @@
+/* General Styles */
+.nav {
+  background-color: var(--custom-color-1); /* Use CSS variable for custom color */
+  width: 100%;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 60px; /* Adjust as needed */
+  height: auto;
+}
+
+.brand-logo-link {
+  list-style: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .nav-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Custom Background Color */
+:root {
+  --custom-color-1: #f5f5f5; /* Replace with your custom color */
+}
+
+
+/* Example Button Effect */
+.button {
+  padding: 10px 20px;
+  background-color: var(--custom-color-1);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: darken(var(--custom-color-1), 10%);
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 100%;
+    padding: 15px 0;
+  }
+}
+
+
 
 /* <button class="button-74" role="button">Button 74</button> */
 

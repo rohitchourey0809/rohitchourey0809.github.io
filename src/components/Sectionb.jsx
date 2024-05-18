@@ -28,171 +28,149 @@ const Sectionb = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div>
-      <div
-        id="3aLppN5J2pIjLq2KKyiodE"
-        data-behavior="p23FeatureCard"
-        data-module-id="p23FeatureCard"
-        data-entry-id="3aLppN5J2pIjLq2KKyiodE"
-        className="font-bold text-center font-serif"
-      >
-        <div className="flex flex-col gap-4 text-wrap bg-custom1 p-4 md:flex-row md:p-5">
-          <div
-            data-behavior="p23FeatureCardItem"
-            className="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
-          >
-            <a
-              className="p23FeatureCard__head"
-              data-behavior="p23FeatureCardHead"
-              aria-label="Convert with email automations "
-              href="/solutions/marketing-automation-tools/"
-            >
-              <h2 className="hover:underline text-lg md:text-xl">
-                Convert with email automations
-              </h2>
-              <figure className="p23FeatureCard__image">
-                <img
-                  src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
-                  alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                  className="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
-                />
-              </figure>
-            </a>
-            <div className="">
-              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
-                Boost orders and customer lifetime value by dynamically
-                personalizing emails based on browsing and purchase data.
-              </p>
-              <div className="p23FeatureCard__ctas bg-custom2">
-                <a
-                  className="ctaSecondary .button-30"
-                  href="https://mailchimp.com/solutions/marketing-automation-tools/"
-                  aria-label="Explore marketing automation  "
-                >
-                  <button className="button-30">
-                    Explore marketing automation
-                  </button>
-                </a>
+      <div className="font-bold text-center font-serif mt-20">
+        <div className="">
+          <div className="flex flex-col md:flex-row gap-2 text-wrap bg-custom1  ">
+            <div className="flex flex-col  bg-custom1 hover:cursor-zoom-in">
+              <a
+                className="p23FeatureCard__head"
+                href="/solutions/marketing-automation-tools/"
+              >
+                <h2 className="hover:underline text-lg md:text-xl">
+                  Convert with email automations
+                </h2>
+                <figure className="p23FeatureCard__image">
+                  <img
+                    src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
+                    alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
+                    className="w-full h-auto transform transition duration-300 hover:scale-110"
+                  />
+                </figure>
+              </a>
+              <div>
+                <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
+                  Boost orders and customer lifetime value by dynamically
+                  personalizing emails based on browsing and purchase data.
+                </p>
+                <div className="p23FeatureCard__ctas bg-custom2">
+                  <a
+                    className="ctaSecondary .button-30"
+                    href="https://mailchimp.com/solutions/marketing-automation-tools/"
+                    aria-label="Explore marketing automation"
+                  >
+                    <button className="button-30">
+                      Explore marketing automation
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col bg-custom1 hover:cursor-zoom-in">
+              <a
+                className="p23FeatureCard__head"
+                href="/solutions/marketing-automation-tools/"
+              >
+                <h2 className="hover:underline text-lg md:text-xl">
+                  Convert with email automations
+                </h2>
+                <figure className="p23FeatureCard__image">
+                  <img
+                    src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
+                    alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
+                    className="w-full h-auto transform transition duration-300 hover:scale-110"
+                  />
+                </figure>
+              </a>
+              <div>
+                <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
+                  Boost orders and customer lifetime value by dynamically
+                  personalizing emails based on browsing and purchase data.
+                </p>
+                <div className="p23FeatureCard__ctas bg-custom2">
+                  <a
+                    className="ctaSecondary .button-30"
+                    href="https://mailchimp.com/solutions/marketing-automation-tools/"
+                    aria-label="Explore marketing automation"
+                  >
+                    <button className="button-30">
+                      Explore marketing automation
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col bg-custom1 hover:cursor-zoom-in">
+              <a
+                className="p23FeatureCard__head"
+                href="/solutions/marketing-automation-tools/"
+              >
+                <h2 className="hover:underline text-lg md:text-xl">
+                  Convert with email automations
+                </h2>
+                <figure className="p23FeatureCard__image">
+                  <img
+                    src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
+                    alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
+                    className="w-full h-auto transform transition duration-300 hover:scale-110"
+                  />
+                </figure>
+              </a>
+              <div>
+                <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
+                  Boost orders and customer lifetime value by dynamically
+                  personalizing emails based on browsing and purchase data.
+                </p>
+                <div className="p23FeatureCard__ctas bg-custom2">
+                  <a
+                    className="ctaSecondary .button-30"
+                    href="https://mailchimp.com/solutions/marketing-automation-tools/"
+                    aria-label="Explore marketing automation"
+                  >
+                    <button className="button-30">
+                      Explore marketing automation
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col bg-custom1 hover:cursor-zoom-in">
+              <a
+                className="p23FeatureCard__head"
+                href="/solutions/marketing-automation-tools/"
+              >
+                <h2 className="hover:underline text-lg md:text-xl">
+                  Convert with email automations
+                </h2>
+                <figure className="p23FeatureCard__image">
+                  <img
+                    src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
+                    alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
+                    className="w-full h-auto transform transition duration-300 hover:scale-110"
+                  />
+                </figure>
+              </a>
+              <div>
+                <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
+                  Boost orders and customer lifetime value by dynamically
+                  personalizing emails based on browsing and purchase data.
+                </p>
+                <div className="p23FeatureCard__ctas bg-custom2">
+                  <a
+                    className="ctaSecondary .button-30"
+                    href="https://mailchimp.com/solutions/marketing-automation-tools/"
+                    aria-label="Explore marketing automation"
+                  >
+                    <button className="button-30">
+                      Explore marketing automation
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div
-            data-behavior="p23FeatureCardItem"
-            className="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
-          >
-            <a
-              className="p23FeatureCard__head"
-              data-behavior="p23FeatureCardHead"
-              aria-label="Convert with email automations "
-              href="/solutions/marketing-automation-tools/"
-            >
-              <h2 className="hover:underline text-lg md:text-xl">
-                Convert with email automations
-              </h2>
-              <figure className="p23FeatureCard__image">
-                <img
-                  src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
-                  alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                  className="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
-                />
-              </figure>
-            </a>
-            <div className="">
-              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
-                Boost orders and customer lifetime value by dynamically
-                personalizing emails based on browsing and purchase data.
-              </p>
-              <div className="p23FeatureCard__ctas bg-custom2">
-                <a
-                  className="ctaSecondary .button-30"
-                  href="https://mailchimp.com/solutions/marketing-automation-tools/"
-                  aria-label="Explore marketing automation  "
-                >
-                  <button className="button-30">
-                    Explore marketing automation
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            data-behavior="p23FeatureCardItem"
-            className="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
-          >
-            <a
-              className="p23FeatureCard__head"
-              data-behavior="p23FeatureCardHead"
-              aria-label="Convert with email automations "
-              href="/solutions/marketing-automation-tools/"
-            >
-              <h2 className="hover:underline text-lg md:text-xl">
-                Convert with email automations
-              </h2>
-              <figure className="p23FeatureCard__image">
-                <img
-                  src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
-                  alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                  className="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
-                />
-              </figure>
-            </a>
-            <div className="">
-              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
-                Boost orders and customer lifetime value by dynamically
-                personalizing emails based on browsing and purchase data.
-              </p>
-              <div className="p23FeatureCard__ctas bg-custom2">
-                <a
-                  className="ctaSecondary .button-30"
-                  href="https://mailchimp.com/solutions/marketing-automation-tools/"
-                  aria-label="Explore marketing automation  "
-                >
-                  <button className="button-30">
-                    Explore marketing automation
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            data-behavior="p23FeatureCardItem"
-            className="flex flex-col backgroundAccessibleApricot bg-custom1 hover:cursor-zoom-in"
-          >
-            <a
-              className="p23FeatureCard__head"
-              data-behavior="p23FeatureCardHead"
-              aria-label="Convert with email automations "
-              href="/solutions/marketing-automation-tools/"
-            >
-              <h2 className="hover:underline text-lg md:text-xl">
-                Convert with email automations
-              </h2>
-              <figure className="p23FeatureCard__image">
-                <img
-                  src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
-                  alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                  className="w-full md:w-200 h-auto transform transition duration-300 hover:scale-110"
-                />
-              </figure>
-            </a>
-            <div className="">
-              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
-                Boost orders and customer lifetime value by dynamically
-                personalizing emails based on browsing and purchase data.
-              </p>
-              <div className="p23FeatureCard__ctas bg-custom2">
-                <a
-                  className="ctaSecondary .button-30"
-                  href="https://mailchimp.com/solutions/marketing-automation-tools/"
-                  aria-label="Explore marketing automation  "
-                >
-                  <button className="button-30">
-                    Explore marketing automation
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* <!-- Repeat the above structure for other cards --> */}
+
+          {/* Repeat the above structure for other cards */}
         </div>
       </div>
 
@@ -276,7 +254,7 @@ const Sectionb = () => {
         <ScrollFeatures details={details} />
       </div>
 
-      <div className="fifthcontainer">
+      <div className="fifthcontainer mt-20">
         <div className="flex justify-center flex-col md:flex-row">
           <div className="leftcont flex flex-col items-center md:w-3/4">
             <h2 className="h1 font-sans text-2xl">
@@ -426,9 +404,10 @@ const Sectionb = () => {
         </div>
       </div>
       <div className="sixthcontainer p-4 md:p-8">
-        <div className="maindiv flex flex-col md:flex-row gap-4 md:gap-6">
-          <div className="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+        <div className="maindiv flex flex-col gap-4 md:flex-row md:gap-6">
+          <div className="threerow flex flex-col p-4 md:p-10 gap-4 md:gap-8">
+            <div className="flex gap-3">
+              {" "}
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
@@ -444,8 +423,8 @@ const Sectionb = () => {
                 </p>
               </div>
             </div>
-
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="flex gap-3">
+              {" "}
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
@@ -461,59 +440,8 @@ const Sectionb = () => {
                 </p>
               </div>
             </div>
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
-              <img
-                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
-                loading="lazy"
-                alt=""
-                className="w-20 h-20"
-              />
-              <div className="contentdiv  items-center md:items-start">
-                <p className="text-center md:text-left font-bold text-black">
-                  Canva
-                </p>
-                <p className="text-center md:text-left text-gray-500 font-mono">
-                  Create Compelling Visuals for your marketing
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
-              <img
-                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
-                loading="lazy"
-                alt=""
-                className="w-20 h-20"
-              />
-              <div className="contentdiv  items-center md:items-start">
-                <p className="text-center md:text-left font-bold text-black">
-                  Canva
-                </p>
-                <p className="text-center md:text-left text-gray-500 font-mono">
-                  Create Compelling Visuals for your marketing
-                </p>
-              </div>
-            </div>
-
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
-              <img
-                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
-                loading="lazy"
-                alt=""
-                className="w-20 h-20"
-              />
-              <div className="contentdiv  items-center md:items-start">
-                <p className="text-center md:text-left font-bold text-black">
-                  Canva
-                </p>
-                <p className="text-center md:text-left text-gray-500 font-mono">
-                  Create Compelling Visuals for your marketing
-                </p>
-              </div>
-            </div>
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="flex gap-3">
+              {" "}
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
@@ -531,8 +459,9 @@ const Sectionb = () => {
             </div>
           </div>
 
-          <div className="threerow flex flex-col p-4 md:p-20 gap-4 md:gap-10">
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+          <div className="threerow flex flex-col p-4 md:p-10 gap-4 md:gap-8">
+            <div className="flex gap-3">
+              {" "}
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
@@ -548,8 +477,45 @@ const Sectionb = () => {
                 </p>
               </div>
             </div>
+            <div className="flex gap-3">
+              {" "}
+              <img
+                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
+                loading="lazy"
+                alt=""
+                className="w-20 h-20"
+              />
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
+                  Canva
+                </p>
+                <p className="text-center md:text-left text-gray-500 font-mono">
+                  Create Compelling Visuals for your marketing
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              {" "}
+              <img
+                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
+                loading="lazy"
+                alt=""
+                className="w-20 h-20"
+              />
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
+                  Canva
+                </p>
+                <p className="text-center md:text-left text-gray-500 font-mono">
+                  Create Compelling Visuals for your marketing
+                </p>
+              </div>
+            </div>
+          </div>
 
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+          <div className="threerow flex flex-col p-4 md:p-10 gap-4 md:gap-8">
+            <div className="flex gap-3">
+              {" "}
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
@@ -565,7 +531,25 @@ const Sectionb = () => {
                 </p>
               </div>
             </div>
-            <div className="threecol flex flex-row  w-full md:w-auto gap-4 border-2 shadow-md p-4 transition duration-300 ease-in-out hover:border-green-500 hover:shadow-lg">
+            <div className="flex gap-3">
+              {" "}
+              <img
+                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
+                loading="lazy"
+                alt=""
+                className="w-20 h-20"
+              />
+              <div className="contentdiv  items-center md:items-start">
+                <p className="text-center md:text-left font-bold text-black">
+                  Canva
+                </p>
+                <p className="text-center md:text-left text-gray-500 font-mono">
+                  Create Compelling Visuals for your marketing
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-3">
+              {" "}
               <img
                 src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
                 loading="lazy"
