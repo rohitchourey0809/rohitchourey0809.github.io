@@ -4,10 +4,10 @@ import side from "../Sidebar.png";
 const ScrollFeatures = ({ details }) => {
   return (
     <div className="section second w-full flex flex-col md:flex-row gap-2 items-start relative">
-      <div className="left mt-[3rem] md:sticky md:top-[6rem] md:w-[50%] bg-[#EFEEEA]">
+      <div className="left md:sticky md:top-[6rem] md:w-[50%] bg-[#EFEEEA] overflow-y-auto">
         <img src={side} className="mx-auto my-[3rem] w-full md:w-auto" alt="" />
       </div>
-      <div className="right w-full md:w-[50%]">
+      <div className="right w-full md:w-[50%] overflow-x-auto overflow-y-auto">
         {details.map((e, index) => (
           <div
             key={index}

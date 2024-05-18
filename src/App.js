@@ -8,7 +8,7 @@ import Sectionb from "./components/Sectionb";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
       <section className="">
         <Navigationabar />
         <Nav />

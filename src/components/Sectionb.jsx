@@ -31,170 +31,177 @@ const Sectionb = () => {
 
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div>
-      <div className="sub-home grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-[64vh] font-serif mt-4 bg-custom4">
-        <div className="card1 h-full flex flex-col items-center">
-          <div className="top1 w-full h-[15%] p-5">
-            <h1 className="text-2xl text-center">
-              Convert with email automations
-            </h1>
-          </div>
-          <img
-            src={H1}
-            alt="ImageAlt0Text"
-            className="w-full h-auto hover:scale-110 transition-transform duration-300"
-          />
-          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-            <p className="text-[1.2rem] mt-4">
-              Boost orders and customer lifetime value by dynamically
-              personalizing emails based on browsing and purchase data.
-            </p>
-            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
-              Explore marketing automation
-            </button>
-          </div>
-        </div>
-        <div className="card1 h-full flex flex-col items-center">
-          <div className="top1 w-full h-[15%] p-5">
-            <h1 className="text-2xl text-center">
-              Create faster with generative AI
-            </h1>
-          </div>
-          <img
-            src={H2}
-            alt="ImageAlt0Text"
-            className="w-full h-auto hover:scale-110 transition-transform duration-300"
-          />
-          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-            <p className="text-[1.2rem] mt-4">
-              Effortlessly create on-brand content with generative AI tools and
-              choose from expertly designed templates.
-            </p>
-            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
-              Explore AI tools
-            </button>
-          </div>
-        </div>
-        <div className="card1 h-full flex flex-col items-center">
-          <div className="top1 w-full h-[15%] p-5">
-            <h1 className="text-2xl text-center">Refine with Segmentation</h1>
-          </div>
-          <img
-            src={H3}
-            alt="ImageAlt0Text"
-            className="w-full h-auto hover:scale-110 transition-transform duration-300"
-          />
-          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-            <p className="text-[1.2rem] mt-4">
-              Target customers with advanced logic like spend amounts, buying
-              behavior, and predicted attributes.
-            </p>
-            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
-              Explore audience management
-            </button>
-          </div>
-        </div>
-        <div className="card1 h-full flex flex-col items-center">
-          <div className="top1 w-full h-[15%] p-5">
-            <h1 className="text-2xl text-center">
-              {" "}
-              Optimize with analytics and reporting
-            </h1>
-          </div>
-          <img
-            src={H4}
-            alt="ImageAlt0Text"
-            className="w-full h-auto hover:scale-110 transition-transform duration-300"
-          />
-          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-            <p className="text-[1.2rem] mt-4">
-              Analyze performance with custom reports, funnel visualizations,
-              and industry benchmarking.
-            </p>
-            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
-              Explore analytics & reporting
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div className="thirdcontainer mt-14">
-        <div className="flex flex-col md:flex-row font-bold bg-custom3 text-white p-8 md:p-40 gap-8">
-          <div className="md:w-1/3">
-            <b className="text-2xl md:text-4xl max-w-sm md:max-w-10">
-              Find out why we’re best-in-className
-            </b>
-            <p className="text-lg md:text-base text-wrap max-w-sm md:max-w-lg mt-4 md:mt-10">
-              The #1 email marketing and automations platform* that recommends
-              ways to get more opens, clicks, and sales.
-            </p>
-          </div>
-
-          <div className="md:w-1/3">
-            <div>
-              <p className="text-sm md:text-base">
-                Up to 39x ROI seen by Mailchimp users*
+    <div className="">
+      <div className="wrapper">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-auto font-serif mt-auto bg-custom4 mb-20 p-10 ">
+          <div className="card1 h-full flex flex-col items-center">
+            <div className="top1 w-full h-[15%] p-5">
+              <h1 className="text-2xl text-center">
+                Convert with email automations
+              </h1>
+            </div>
+            <img
+              src={H1}
+              alt="ImageAlt0Text"
+              className="w-full h-auto hover:scale-110 transition-transform duration-300"
+            />
+            <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+              <p className="text-[1.2rem] mt-4">
+                Boost orders and customer lifetime value by dynamically
+                personalizing emails based on browsing and purchase data.
               </p>
-              <p className="text-sm md:text-base">seen by Mailchimp users*</p>
-            </div>
-            <div className="mt-4 md:mt-20">
-              <p className="text-sm md:text-base">12M+ Users of</p>
-              <p className="text-sm md:text-base">Mailchimp globally</p>
+              <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+                Explore marketing automation
+              </button>
             </div>
           </div>
-
-          <div className="md:w-1/3">
-            <div>
-              <p className="text-sm md:text-base">22 years experience</p>
-              <p className="text-sm md:text-base">
-                helping businesses sell more
-              </p>
+          <div className="card1 h-full flex flex-col items-center">
+            <div className="top1 w-full h-[15%] p-5">
+              <h1 className="text-2xl text-center">
+                Create faster with generative AI
+              </h1>
             </div>
-            <div className="mt-4 md:mt-20">
-              <p className="text-sm md:text-base">$1.7K per campaign</p>
-              <p className="text-sm md:text-base">generated on average*</p>
+            <img
+              src={H2}
+              alt="ImageAlt0Text"
+              className="w-full h-auto hover:scale-110 transition-transform duration-300"
+            />
+            <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+              <p className="text-[1.2rem] mt-4">
+                Effortlessly create on-brand content with generative AI tools
+                and choose from expertly designed templates.
+              </p>
+              <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+                Explore AI tools
+              </button>
+            </div>
+          </div>
+          <div className="card1 h-full flex flex-col items-center">
+            <div className="top1 w-full h-[15%] p-5">
+              <h1 className="text-2xl text-center">Refine with Segmentation</h1>
+            </div>
+            <img
+              src={H3}
+              alt="ImageAlt0Text"
+              className="w-full h-auto hover:scale-110 transition-transform duration-300"
+            />
+            <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+              <p className="text-[1.2rem] mt-4">
+                Target customers with advanced logic like spend amounts, buying
+                behavior, and predicted attributes.
+              </p>
+              <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+                Explore audience management
+              </button>
+            </div>
+          </div>
+          <div className="card1 h-full flex flex-col items-center">
+            <div className="top1 w-full h-[15%] p-5">
+              <h1 className="text-2xl text-center">
+                {" "}
+                Optimize with analytics and reporting
+              </h1>
+            </div>
+            <img
+              src={H4}
+              alt="ImageAlt0Text"
+              className="w-full h-auto hover:scale-110 transition-transform duration-300"
+            />
+            <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+              <p className="text-[1.2rem] mt-4">
+                Analyze performance with custom reports, funnel visualizations,
+                and industry benchmarking.
+              </p>
+              <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+                Explore analytics & reporting
+              </button>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="fourthcontainer">
-        <div className="module--content align--center">
-          <div className="flex flex-col md:flex-row gap-4 align-center p-4 md:p-20">
-            <div className="flex flex-col gap-4 justify-center p-4 md:p-10 text-wrap max-w-md md:max-w-2xl">
-              <h2 className="font-bold text-2xl md:text-4xl font-serif">
-                Get started easily with a personalized product tour
-              </h2>
-              <p className="text-wrap">
-                An onboarding specialist is here to help you get started with
-                confidence—it’s included with Standard and Premium plans.*
+      <div className="thirdcontainer overflow-x-hidden mt-20 py-10">
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row font-bold bg-custom3 text-white p-8 md:p-10 lg:p-20 gap-8">
+            <div className="md:w-full lg:w-1/3 md:pr-0 lg:pr-8">
+              <b className="text-xl md:text-4xl max-w-sm md:max-w-none">
+                Find out why we’re best-in-class
+              </b>
+              <p className="text-base md:text-lg text-wrap max-w-sm md:max-w-lg mt-4 md:mt-10">
+                The #1 email marketing and automations platform* that recommends
+                ways to get more opens, clicks, and sales.
               </p>
-              <div className="cta__holder cta__p23_arrow_link">
-                <a
-                  className="ctaArrow"
-                  href="/services/onboarding/"
-                  aria-label="Learn more about onboarding"
-                >
-                  Learn more about onboarding
-                </a>
+            </div>
+
+            <div className="md:w-full lg:w-1/3 mt-8 md:mt-0 lg:mt-0">
+              <div>
+                <p className="text-sm md:text-base">
+                  Up to 39x ROI seen by Mailchimp users*
+                </p>
+                <p className="text-sm md:text-base">seen by Mailchimp users*</p>
+              </div>
+              <div className="mt-4 md:mt-8">
+                <p className="text-sm md:text-base">12M+ Users of</p>
+                <p className="text-sm md:text-base">Mailchimp globally</p>
               </div>
             </div>
-            <div className="column column2">
-              <figure className="image animate--show" data-animate="fade-up-in">
-                <img
-                  src="https://eep.io/images/yzco4xsimv0y/eeOxTgGvLZjag4xB9SK7h/18bbe5f5514e075ae697322976223c1f/Onboarding_Placement_-_Woman_on_phone_and_laptop.png?w=640&amp;q=70"
-                  alt="A small business owner reaching out to her Mailchimp Onboarding Specialist."
-                  width="320"
-                  height="221"
-                  className="w-full md:w-auto"
-                />
-              </figure>
+
+            <div className="md:w-full lg:w-1/3 mt-8 md:mt-0 lg:mt-0">
+              <div>
+                <p className="text-sm md:text-base">22 years experience</p>
+                <p className="text-sm md:text-base">
+                  helping businesses sell more
+                </p>
+              </div>
+              <div className="mt-4 md:mt-8">
+                <p className="text-sm md:text-base">$1.7K per campaign</p>
+                <p className="text-sm md:text-base">generated on average*</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="scroll mt-2">
+      <div className=" wrapper">
+        <div className="fourthcontainer overflow-x-auto">
+          <div className="module--content align--center">
+            <div className="flex flex-col md:flex-row gap-4 align-center p-4 md:p-20">
+              <div className="flex flex-col gap-4 justify-center p-4 md:p-10 max-w-full">
+                <h2 className="font-bold text-2xl md:text-4xl font-serif">
+                  Get started easily with a personalized product tour
+                </h2>
+                <p className="text-wrap">
+                  An onboarding specialist is here to help you get started with
+                  confidence—it’s included with Standard and Premium plans.*
+                </p>
+                <div className="cta__holder cta__p23_arrow_link">
+                  <a
+                    className="ctaArrow"
+                    href="/services/onboarding/"
+                    aria-label="Learn more about onboarding"
+                  >
+                    Learn more about onboarding
+                  </a>
+                </div>
+              </div>
+              <div className="column column2">
+                <figure
+                  className="image animate--show max-w-full"
+                  data-animate="fade-up-in"
+                >
+                  <img
+                    src="https://eep.io/images/yzco4xsimv0y/eeOxTgGvLZjag4xB9SK7h/18bbe5f5514e075ae697322976223c1f/Onboarding_Placement_-_Woman_on_phone_and_laptop.png?w=640&amp;q=70"
+                    alt="A small business owner reaching out to her Mailchimp Onboarding Specialist."
+                    className="w-full h-auto max-w-full"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="scroll mt-2 overflow-x-auto">
         <ScrollFeatures details={details} />
       </div>
 
