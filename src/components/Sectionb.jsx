@@ -32,7 +32,7 @@ const Sectionb = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div>
-      <div className="sub-home grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-[130vh] font-serif mt-4 bg-custom4">
+      <div className="sub-home grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-[64vh] font-serif mt-4 bg-custom4">
         <div className="card1 h-full flex flex-col items-center">
           <div className="top1 w-full h-[15%] p-5">
             <h1 className="text-2xl text-center">
