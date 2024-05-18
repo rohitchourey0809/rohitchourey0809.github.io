@@ -10,6 +10,7 @@ module.exports = {
         custom1: "#dfd9d3",
         custom2: "#d99536",
         custom3: "#241c15",
+        custom4: "#e0dad4",
       },
     },
   },

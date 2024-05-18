@@ -2,55 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./Nav.css";
 import LocomotiveScroll from "locomotive-scroll";
 import ScrollFeatures from "./Scroll";
+import H1 from "../H1.avif";
+import H2 from "../H2.avif";
+import H3 from "../H3.avif";
+import H4 from "../H4.avif";
 
 const Sectionb = () => {
-  const [isMobile, setIsMobile] = useState(false);
-  const itemContent = [
-    {
-      title: "Convert with email automations",
-      imageSrc:
-        "https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png",
-      description:
-        "Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and purchase data.",
-      ctaUrl: "https://mailchimp.com/solutions/marketing-automation-tools/",
-    },
-    {
-      title: "Convert with email automations",
-      imageSrc:
-        "https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png",
-      description:
-        "Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and purchase data.",
-      ctaUrl: "https://mailchimp.com/solutions/marketing-automation-tools/",
-    },
-    {
-      title: "Convert with email automations",
-      imageSrc:
-        "https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png",
-      description:
-        "Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and purchase data.",
-      ctaUrl: "https://mailchimp.com/solutions/marketing-automation-tools/",
-    },
-    {
-      title: "Convert with email automations",
-      imageSrc:
-        "https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png",
-      description:
-        "Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and purchase data.",
-      ctaUrl: "https://mailchimp.com/solutions/marketing-automation-tools/",
-    },
-    // Add other items similarly
-  ];
-
-    useEffect(() => {
-      const handleResize = () => {
-        setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
-      };
-
-      handleResize(); // Call once to set initial state
-      window.addEventListener("resize", handleResize); // Listen for window resize events
-      return () => window.removeEventListener("resize", handleResize); // Cleanup listener on unmount
-    }, []);
-
   const details = [
     {
       src: "./first.png",
@@ -74,48 +31,94 @@ const Sectionb = () => {
 
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div >
-      <div className="flex flex-col items-center flex-nowrap md:flex-row justify-center gap-2 max-w-xl m-auto">
-        {itemContent.map((item, index) => (
-          <div
-            key={index}
-            className={`flex flex-col bg-custom1 hover:cursor-zoom-in m-auto ${
-              isMobile ? "w-full mb-4" : "w-20 md:w-auto"
-            }`}
-          >
-            <a className="p23FeatureCard__head" href={item.ctaUrl}>
-              <h2 className="hover:underline text-lg md:text-xl text-center">
-                {item.title}
-              </h2>
-              <figure className="p23FeatureCard__image">
-                <img
-                  src={item.imageSrc}
-                  alt={item.title}
-                  className="w-full h-auto transform transition duration-300 hover:scale-110"
-                />
-              </figure>
-            </a>
-            <div>
-              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4 text-center">
-                {item.description}
-              </p>
-              <div className="p23FeatureCard__ctas bg-custom2">
-                <a
-                  className="ctaSecondary button-30"
-                  href={item.ctaUrl}
-                  aria-label="Explore marketing automation"
-                >
-                  <button className="button-30">
-                    Explore marketing automation
-                  </button>
-                </a>
-              </div>
-            </div>
+    <div>
+      <div className="sub-home grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-[130vh] font-serif mt-4 bg-custom4">
+        <div className="card1 h-full flex flex-col items-center">
+          <div className="top1 w-full h-[15%] p-5">
+            <h1 className="text-2xl text-center">
+              Convert with email automations
+            </h1>
           </div>
-        ))}
+          <img
+            src={H1}
+            alt="ImageAlt0Text"
+            className="w-full h-auto hover:scale-110 transition-transform duration-300"
+          />
+          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+            <p className="text-[1.2rem] mt-4">
+              Boost orders and customer lifetime value by dynamically
+              personalizing emails based on browsing and purchase data.
+            </p>
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+              Explore marketing automation
+            </button>
+          </div>
+        </div>
+        <div className="card1 h-full flex flex-col items-center">
+          <div className="top1 w-full h-[15%] p-5">
+            <h1 className="text-2xl text-center">
+              Create faster with generative AI
+            </h1>
+          </div>
+          <img
+            src={H2}
+            alt="ImageAlt0Text"
+            className="w-full h-auto hover:scale-110 transition-transform duration-300"
+          />
+          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+            <p className="text-[1.2rem] mt-4">
+              Effortlessly create on-brand content with generative AI tools and
+              choose from expertly designed templates.
+            </p>
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+              Explore AI tools
+            </button>
+          </div>
+        </div>
+        <div className="card1 h-full flex flex-col items-center">
+          <div className="top1 w-full h-[15%] p-5">
+            <h1 className="text-2xl text-center">Refine with Segmentation</h1>
+          </div>
+          <img
+            src={H3}
+            alt="ImageAlt0Text"
+            className="w-full h-auto hover:scale-110 transition-transform duration-300"
+          />
+          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+            <p className="text-[1.2rem] mt-4">
+              Target customers with advanced logic like spend amounts, buying
+              behavior, and predicted attributes.
+            </p>
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+              Explore audience management
+            </button>
+          </div>
+        </div>
+        <div className="card1 h-full flex flex-col items-center">
+          <div className="top1 w-full h-[15%] p-5">
+            <h1 className="text-2xl text-center">
+              {" "}
+              Optimize with analytics and reporting
+            </h1>
+          </div>
+          <img
+            src={H4}
+            alt="ImageAlt0Text"
+            className="w-full h-auto hover:scale-110 transition-transform duration-300"
+          />
+          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+            <p className="text-[1.2rem] mt-4">
+              Analyze performance with custom reports, funnel visualizations,
+              and industry benchmarking.
+            </p>
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+              Explore analytics & reporting
+            </button>
+          </div>
+        </div>
       </div>
 
-      <div className="thirdcontainer">
+      <div className="thirdcontainer mt-14">
         <div className="flex flex-col md:flex-row font-bold bg-custom3 text-white p-8 md:p-40 gap-8">
           <div className="md:w-1/3">
             <b className="text-2xl md:text-4xl max-w-sm md:max-w-10">
@@ -191,7 +194,7 @@ const Sectionb = () => {
         </div>
       </div>
 
-      <div className="scroll">
+      <div className="scroll mt-2">
         <ScrollFeatures details={details} />
       </div>
 
