@@ -1,9 +1,56 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Nav.css";
 import LocomotiveScroll from "locomotive-scroll";
 import ScrollFeatures from "./Scroll";
 
 const Sectionb = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  const itemContent = [
+    {
+      title: "Convert with email automations",
+      imageSrc:
+        "https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png",
+      description:
+        "Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and purchase data.",
+      ctaUrl: "https://mailchimp.com/solutions/marketing-automation-tools/",
+    },
+    {
+      title: "Convert with email automations",
+      imageSrc:
+        "https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png",
+      description:
+        "Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and purchase data.",
+      ctaUrl: "https://mailchimp.com/solutions/marketing-automation-tools/",
+    },
+    {
+      title: "Convert with email automations",
+      imageSrc:
+        "https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png",
+      description:
+        "Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and purchase data.",
+      ctaUrl: "https://mailchimp.com/solutions/marketing-automation-tools/",
+    },
+    {
+      title: "Convert with email automations",
+      imageSrc:
+        "https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png",
+      description:
+        "Boost orders and customer lifetime value by dynamically personalizing emails based on browsing and purchase data.",
+      ctaUrl: "https://mailchimp.com/solutions/marketing-automation-tools/",
+    },
+    // Add other items similarly
+  ];
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
+      };
+
+      handleResize(); // Call once to set initial state
+      window.addEventListener("resize", handleResize); // Listen for window resize events
+      return () => window.removeEventListener("resize", handleResize); // Cleanup listener on unmount
+    }, []);
+
   const details = [
     {
       src: "./first.png",
@@ -27,151 +74,45 @@ const Sectionb = () => {
 
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div>
-      <div className="font-bold text-center font-serif mt-20">
-        <div className="">
-          <div className="flex flex-col md:flex-row gap-2 text-wrap bg-custom1  ">
-            <div className="flex flex-col  bg-custom1 hover:cursor-zoom-in">
-              <a
-                className="p23FeatureCard__head"
-                href="/solutions/marketing-automation-tools/"
-              >
-                <h2 className="hover:underline text-lg md:text-xl">
-                  Convert with email automations
-                </h2>
-                <figure className="p23FeatureCard__image">
-                  <img
-                    src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
-                    alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                    className="w-full h-auto transform transition duration-300 hover:scale-110"
-                  />
-                </figure>
-              </a>
-              <div>
-                <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
-                  Boost orders and customer lifetime value by dynamically
-                  personalizing emails based on browsing and purchase data.
-                </p>
-                <div className="p23FeatureCard__ctas bg-custom2">
-                  <a
-                    className="ctaSecondary .button-30"
-                    href="https://mailchimp.com/solutions/marketing-automation-tools/"
-                    aria-label="Explore marketing automation"
-                  >
-                    <button className="button-30">
-                      Explore marketing automation
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col bg-custom1 hover:cursor-zoom-in">
-              <a
-                className="p23FeatureCard__head"
-                href="/solutions/marketing-automation-tools/"
-              >
-                <h2 className="hover:underline text-lg md:text-xl">
-                  Convert with email automations
-                </h2>
-                <figure className="p23FeatureCard__image">
-                  <img
-                    src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
-                    alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                    className="w-full h-auto transform transition duration-300 hover:scale-110"
-                  />
-                </figure>
-              </a>
-              <div>
-                <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
-                  Boost orders and customer lifetime value by dynamically
-                  personalizing emails based on browsing and purchase data.
-                </p>
-                <div className="p23FeatureCard__ctas bg-custom2">
-                  <a
-                    className="ctaSecondary .button-30"
-                    href="https://mailchimp.com/solutions/marketing-automation-tools/"
-                    aria-label="Explore marketing automation"
-                  >
-                    <button className="button-30">
-                      Explore marketing automation
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col bg-custom1 hover:cursor-zoom-in">
-              <a
-                className="p23FeatureCard__head"
-                href="/solutions/marketing-automation-tools/"
-              >
-                <h2 className="hover:underline text-lg md:text-xl">
-                  Convert with email automations
-                </h2>
-                <figure className="p23FeatureCard__image">
-                  <img
-                    src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
-                    alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                    className="w-full h-auto transform transition duration-300 hover:scale-110"
-                  />
-                </figure>
-              </a>
-              <div>
-                <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
-                  Boost orders and customer lifetime value by dynamically
-                  personalizing emails based on browsing and purchase data.
-                </p>
-                <div className="p23FeatureCard__ctas bg-custom2">
-                  <a
-                    className="ctaSecondary .button-30"
-                    href="https://mailchimp.com/solutions/marketing-automation-tools/"
-                    aria-label="Explore marketing automation"
-                  >
-                    <button className="button-30">
-                      Explore marketing automation
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col bg-custom1 hover:cursor-zoom-in">
-              <a
-                className="p23FeatureCard__head"
-                href="/solutions/marketing-automation-tools/"
-              >
-                <h2 className="hover:underline text-lg md:text-xl">
-                  Convert with email automations
-                </h2>
-                <figure className="p23FeatureCard__image">
-                  <img
-                    src="https://eep.io/images/yzco4xsimv0y/5WllshiDMhrDqeWAqcNBui/db1076f31748cce4a19014641faa28e5/Homepage-Feature-Card-Automations-Mobile-INT__1_.png?w=476&amp;fm=avif&amp;q=60"
-                    alt="E-commerce automation flow with a Shopify integration that sends an email and reminder once a contact has viewed a product."
-                    className="w-full h-auto transform transition duration-300 hover:scale-110"
-                  />
-                </figure>
-              </a>
-              <div>
-                <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4">
-                  Boost orders and customer lifetime value by dynamically
-                  personalizing emails based on browsing and purchase data.
-                </p>
-                <div className="p23FeatureCard__ctas bg-custom2">
-                  <a
-                    className="ctaSecondary .button-30"
-                    href="https://mailchimp.com/solutions/marketing-automation-tools/"
-                    aria-label="Explore marketing automation"
-                  >
-                    <button className="button-30">
-                      Explore marketing automation
-                    </button>
-                  </a>
-                </div>
+    <div >
+      <div className="flex flex-col items-center flex-nowrap md:flex-row justify-center gap-2 max-w-xl m-auto">
+        {itemContent.map((item, index) => (
+          <div
+            key={index}
+            className={`flex flex-col bg-custom1 hover:cursor-zoom-in m-auto ${
+              isMobile ? "w-full mb-4" : "w-20 md:w-auto"
+            }`}
+          >
+            <a className="p23FeatureCard__head" href={item.ctaUrl}>
+              <h2 className="hover:underline text-lg md:text-xl text-center">
+                {item.title}
+              </h2>
+              <figure className="p23FeatureCard__image">
+                <img
+                  src={item.imageSrc}
+                  alt={item.title}
+                  className="w-full h-auto transform transition duration-300 hover:scale-110"
+                />
+              </figure>
+            </a>
+            <div>
+              <p className="p23FeatureCard__description bg-custom2 text-xs md:text-sm p-2 md:p-4 text-center">
+                {item.description}
+              </p>
+              <div className="p23FeatureCard__ctas bg-custom2">
+                <a
+                  className="ctaSecondary button-30"
+                  href={item.ctaUrl}
+                  aria-label="Explore marketing automation"
+                >
+                  <button className="button-30">
+                    Explore marketing automation
+                  </button>
+                </a>
               </div>
             </div>
           </div>
-
-          {/* Repeat the above structure for other cards */}
-        </div>
+        ))}
       </div>
 
       <div className="thirdcontainer">

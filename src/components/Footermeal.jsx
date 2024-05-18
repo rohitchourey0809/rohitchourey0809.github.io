@@ -886,7 +886,7 @@ const Footermeal = () => {
 
           <div className="layout content contentBottom ">
             <div className="">
-              <div className="flex flex-row justify-center flex-wrap p-8 border-2 border-red-400">
+              <div className="flex flex-row justify-center flex-wrap p-8">
                 <div className="">
                   <div className="margin--right-c3 margin--bottom-c3 screen-reader-only">
                     <label
