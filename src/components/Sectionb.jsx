@@ -46,8 +46,6 @@ const Sectionb = () => {
     },
   ];
 
-
-
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="">
@@ -213,6 +211,210 @@ const Sectionb = () => {
                   />
                 </figure>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="formcontainer flex flex-col md:flex-row">
+        <div className="leftformcont bg-gray-100 p-4 md:w-1/2">
+          <div className="singlePlan__textCell flex flex-col">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Try our Standard plan for <em className="not-italic">50% off</em>!
+            </h2>
+            <div className="singlePlan__desktopCopy mb-4 hidden md:block text-base md:text-lg">
+              <p>
+                Spend less to grow more with 50% off for 12 months, even if you
+                change to our{" "}
+                <a
+                  href="/pricing/premium-details/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Premium
+                </a>{" "}
+                or{" "}
+                <a
+                  href="/pricing/essentials-details/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Essentials
+                </a>{" "}
+                plans. Cancel or downgrade to our basic{" "}
+                <a
+                  href="/pricing/free-details/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Free
+                </a>{" "}
+                plan at any time.
+              </p>
+            </div>
+            <div className="singlePlan__mobileCopy mb-4 md:hidden text-base">
+              <p>
+                Enjoy 50% off for 12 months, even if you change to a{" "}
+                <a
+                  href="/pricing/premium-details/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Premium
+                </a>{" "}
+                or{" "}
+                <a
+                  href="/pricing/essentials-details/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Essentials
+                </a>{" "}
+                plan. Cancel or downgrade to a{" "}
+                <a
+                  href="/pricing/free-details/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Free
+                </a>{" "}
+                plan at any time.
+              </p>
+            </div>
+
+            <ul className="singlePlan__featureList mb-4 text-sm md:text-base space-y-2">
+              <li className="featureList__feature flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon--yes w-4 h-4 mr-2"
+                  viewBox="0 0 17 13"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M16.7072 1.70712L6.00008 12.4142L0.792969 7.20712L2.20718 5.79291L6.00008 9.5858L15.293 0.292908L16.7072 1.70712Z"
+                    fill="#000"
+                  ></path>
+                </svg>
+                <p className="sr-only">Included</p>
+                Generative AI features{" "}
+              </li>
+              <li className="featureList__feature flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon--yes w-4 h-4 mr-2"
+                  viewBox="0 0 17 13"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M16.7072 1.70712L6.00008 12.4142L0.792969 7.20712L2.20718 5.79291L6.00008 9.5858L15.293 0.292908L16.7072 1.70712Z"
+                    fill="#000"
+                  ></path>
+                </svg>
+                <p className="sr-only">Included</p>
+                Advanced segmentation &amp; reporting{" "}
+              </li>
+              <li className="featureList__feature flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon--yes w-4 h-4 mr-2"
+                  viewBox="0 0 17 13"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M16.7072 1.70712L6.00008 12.4142L0.792969 7.20712L2.20718 5.79291L6.00008 9.5858L15.293 0.292908L16.7072 1.70712Z"
+                    fill="#000"
+                  ></path>
+                </svg>
+                <p className="sr-only">Included</p>
+                Enhanced automations{" "}
+              </li>
+              <li className="featureList__feature flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon--yes w-4 h-4 mr-2"
+                  viewBox="0 0 17 13"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M16.7072 1.70712L6.00008 12.4142L0.792969 7.20712L2.20718 5.79291L6.00008 9.5858L15.293 0.292908L16.7072 1.70712Z"
+                    fill="#000"
+                  ></path>
+                </svg>
+                <p className="sr-only">Included</p>
+                Custom-coded email templates{" "}
+              </li>
+              <li className="featureList__feature flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon--yes w-4 h-4 mr-2"
+                  viewBox="0 0 17 13"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M16.7072 1.70712L6.00008 12.4142L0.792969 7.20712L2.20718 5.79291L6.00008 9.5858L15.293 0.292908L16.7072 1.70712Z"
+                    fill="#000"
+                  ></path>
+                </svg>
+                <p className="sr-only">Included</p>
+                Data-driven optimization tools{" "}
+              </li>
+              <li className="featureList__feature flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon icon--yes w-4 h-4 mr-2"
+                  viewBox="0 0 17 13"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M16.7072 1.70712L6.00008 12.4142L0.792969 7.20712L2.20718 5.79291L6.00008 9.5858L15.293 0.292908L16.7072 1.70712Z"
+                    fill="#000"
+                  ></path>
+                </svg>
+                <p className="sr-only">Included</p>
+                Personalized onboarding{" "}
+              </li>
+            </ul>
+
+            <div className="singlePlan__cta--desktop mt-4 mb-4">
+              <a
+                className="ctaArrow text-blue-600 hover:underline"
+                href="/pricing/marketing/"
+                aria-label="See all plans"
+              >
+                See all plans
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="rightformcont md:w-1/2  bg-white shadow-md rounded-lg  p-2">
+          <div>
+            <div className="text-2xl font-bold mb-4 font-mono">Standard</div>
+            <div className="text-gray-600 mb-4 font-serif">
+              Send up to 6,000 emails each month.
+            </div>
+            <div className="mb-4 flex justify-between  border-2 border-gray-200 p-2">
+              <div className="text-lg font-semibold">Contacts</div>
+              <div className="text-gray-800 ">500</div>
+            </div>
+            <div className="text-lg font-semibold mb-2">Starts at</div>
+            <div className="text-xl font-bold mb-2">₹575 for 12 months</div>
+            <div className="text-gray-600 mb-4">
+              Then, starts at ₹1150 /month
+            </div>
+            <button className="bg-yellow-500  w-full  text-white px-100 py-4 rounded hover:bg-blue-600">
+              Buy Now
+            </button>
+            <div className="mt-4 text-sm text-gray-500">
+              <p>
+                * See{" "}
+                <a href="#" className="text-blue-500 underline">
+                  Offer Terms
+                </a>
+                . Overages apply if contact or email send limit is exceeded.{" "}
+                <a href="#" className="text-blue-500 underline">
+                  Learn more
+                </a>
+              </p>
             </div>
           </div>
         </div>
