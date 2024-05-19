@@ -436,7 +436,7 @@ const Sectionb = () => {
             <div className="flex gap-3">
               {" "}
               <img
-                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
+                src="https://eep.io/images/yzco4xsimv0y/uZVnrVt3DO1G4Ec5G4pvs/e6c9d3c2613827f7dd238f1c5e0b02d9/Quickbooks.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
                 className="w-20 h-20"
@@ -453,7 +453,7 @@ const Sectionb = () => {
             <div className="flex gap-3">
               {" "}
               <img
-                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
+                src="https://eep.io/images/yzco4xsimv0y/2uruOq31Y1FKdghFWn5zMg/8a35f3f9e463ba34038f3c3f16ccb635/WooCommerce.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
                 className="w-20 h-20"
@@ -473,10 +473,10 @@ const Sectionb = () => {
             <div className="flex gap-3">
               {" "}
               <img
-                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
+                src="https://eep.io/images/yzco4xsimv0y/2klSrOoLZKmLuGKZjKT9o3/ca400f60c2f3673f3ab9b52f4d03360d/Squarespace.jpg?w=196&amp;q=70"
                 loading="lazy"
                 alt=""
-                className="w-20 h-20"
+                className="h-20 w-20"
               />
               <div className="contentdiv  items-center md:items-start">
                 <p className="text-center md:text-left font-bold text-black">
@@ -490,7 +490,8 @@ const Sectionb = () => {
             <div className="flex gap-3">
               {" "}
               <img
-                src="https://eep.io/images/yzco4xsimv0y/egMxvwdsj41K5eESLhWBO/cf823adbd311e33919f97ffc5bf3181d/Canva.jpg?w=196&amp;q=70"
+                src="https://eep.io/images/yzco4xsimv0y/2uruOq31Y1FKdghFWn5zMg/8a35f3f9e463ba34038f3c3f16ccb635/WooCommerce.jpg?w=196&amp;q=70"
+                sizes="196px"
                 loading="lazy"
                 alt=""
                 className="w-20 h-20"
