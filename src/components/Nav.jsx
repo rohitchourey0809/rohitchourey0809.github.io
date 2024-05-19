@@ -105,15 +105,11 @@ const Nav = () => {
                 {/* SVG Content */}
               </a>
             </li>
+          
           </div>
 
           {/* Navigation Links */}
-          <ul
-            className={`  nav-links  ${
-              isOpen ? "open" : ""
-            }`}
-          >
-           
+          <ul className={`  nav-links  ${isOpen ? "open" : ""}`}>
             <li className="mt-3"> Sales: +1 (800) 315-593</li>
             <li>
               <button className="button-74 " type="button">
