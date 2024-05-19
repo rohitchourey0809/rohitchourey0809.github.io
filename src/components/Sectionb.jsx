@@ -46,20 +46,7 @@ const Sectionb = () => {
     },
   ];
 
-  const [second_details, setsecond_details] = useState([
-    {
-      src: "./first.png",
-      heading: "Predict who’s likely to buy again",
-      subheading:
-        "Create segments of customers based on their lifetime value and likelihood to purchase.",
-    },
-    {
-      src: "./second.png",
-      heading: "Build customers for life",
-      subheading:
-        "Use our intelligent predictions to tighten your targeting strategy,repeat sales.",
-    },
-  ]);
+
 
   const locomotiveScroll = new LocomotiveScroll();
   return (
@@ -81,7 +68,7 @@ const Sectionb = () => {
               Boost orders and customer lifetime value by dynamically
               personalizing emails based on browsing and purchase data.
             </p>
-            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-full max-w-[15rem] text-[0.8rem] sm:text-[0.9rem] p-2 overflow-hidden">
               Explore marketing automation
             </button>
           </div>
@@ -102,7 +89,7 @@ const Sectionb = () => {
               Effortlessly create on-brand content with generative AI tools and
               choose from expertly designed templates.
             </p>
-            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-full max-w-[15rem] text-[0.8rem] sm:text-[0.9rem] p-2 overflow-hidden">
               Explore AI tools
             </button>
           </div>
@@ -121,7 +108,7 @@ const Sectionb = () => {
               Target customers with advanced logic like spend amounts, buying
               behavior, and predicted attributes.
             </p>
-            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-full max-w-[15rem] text-[0.8rem] sm:text-[0.9rem] p-2 overflow-hidden">
               Explore audience management
             </button>
           </div>
@@ -143,7 +130,7 @@ const Sectionb = () => {
               Analyze performance with custom reports, funnel visualizations,
               and industry benchmarking.
             </p>
-            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-[15rem] text-[0.9rem]">
+            <button className="mx-4 my-4 border-2 border-black rounded-full h-[3rem] w-full max-w-[15rem] text-[0.8rem] sm:text-[0.9rem] p-2 overflow-hidden">
               Explore analytics & reporting
             </button>
           </div>
@@ -579,7 +566,6 @@ const Sectionb = () => {
           </div>
         </div>
       </div>
-     
     </div>
   );
 };
