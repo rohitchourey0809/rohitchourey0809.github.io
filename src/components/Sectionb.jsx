@@ -76,8 +76,8 @@ const Sectionb = () => {
             alt="ImageAlt0Text"
             className="w-full h-auto hover:scale-110 transition-transform duration-300"
           />
-          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
-            <p className="text-[1.2rem] mt-4">
+          <div className="w-full h-30 down flex flex-col justify-center bg-yellow-400 p-4 mt-0 py-2">
+            <p className="text-[1.2rem] mt-0 ">
               Boost orders and customer lifetime value by dynamically
               personalizing emails based on browsing and purchase data.
             </p>
@@ -97,7 +97,7 @@ const Sectionb = () => {
             alt="ImageAlt0Text"
             className="w-full h-auto hover:scale-110 transition-transform duration-300"
           />
-          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+          <div className="w-full h-30 down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
             <p className="text-[1.2rem] mt-4">
               Effortlessly create on-brand content with generative AI tools and
               choose from expertly designed templates.
@@ -116,7 +116,7 @@ const Sectionb = () => {
             alt="ImageAlt0Text"
             className="w-full h-auto hover:scale-110 transition-transform duration-300"
           />
-          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+          <div className="w-full h-30 down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
             <p className="text-[1.2rem] mt-4">
               Target customers with advanced logic like spend amounts, buying
               behavior, and predicted attributes.
@@ -138,7 +138,7 @@ const Sectionb = () => {
             alt="ImageAlt0Text"
             className="w-full h-auto hover:scale-110 transition-transform duration-300"
           />
-          <div className="w-full h-[30%] down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
+          <div className="w-full h-30 down flex flex-col justify-center bg-yellow-400 p-4 mt-0">
             <p className="text-[1.2rem] mt-4">
               Analyze performance with custom reports, funnel visualizations,
               and industry benchmarking.
