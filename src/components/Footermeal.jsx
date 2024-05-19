@@ -3,7 +3,7 @@ import React from "react";
 const Footermeal = () => {
   return (
     <div>
-      <div className="bg-green-50 text-black px-4 py-2 sm:px-6 sm:py-4 md:px-8 md:py-6">
+      <div className="bg-green-50 text-xs font-semibold text-black px-4 py-2 sm:px-6 sm:py-4 md:px-8 md:py-6">
         <ol>
           <li>
             1 #1 AI-powered email marketing platform: Based on December 2023
