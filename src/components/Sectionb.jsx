@@ -155,7 +155,7 @@ const Sectionb = () => {
           <div className="flex flex-col md:flex-row font-bold bg-custom3 text-white p-8 md:p-10 lg:p-20 gap-8">
             <div className="md:w-full lg:w-1/3 md:pr-0 lg:pr-8">
               <b className="text-xl md:text-4xl max-w-sm md:max-w-none">
-                Find out why we’re best-in-class
+                Find out why we’re best-in-className
               </b>
               <p className="text-base md:text-lg text-wrap max-w-sm md:max-w-lg mt-4 md:mt-10">
                 The #1 email marketing and automations platform* that recommends
@@ -579,6 +579,7 @@ const Sectionb = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };

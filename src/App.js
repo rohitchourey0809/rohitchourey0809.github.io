@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Sectionb />} />
       </Routes>
 
-      <section className="">
+      <section className="mt-20">
         <Footermeal />
       </section>
     </div>

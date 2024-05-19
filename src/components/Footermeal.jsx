@@ -3,7 +3,79 @@ import React from "react";
 const Footermeal = () => {
   return (
     <div>
-      <footer className="bg-white dark:bg-cream text-black">
+      <div className="bg-green-50 text-black px-4 py-2 sm:px-6 sm:py-4 md:px-8 md:py-6">
+        <ol>
+          <li>
+            1 #1 AI-powered email marketing platform: Based on December 2023
+            publicly available data on the number of customers of competitors
+            that also advertise using AI to enhance their email marketing and
+            automation products and services.
+          </li>
+          <li>
+            2 #1 email marketing and automation platform: Mailchimp is the #1
+            email marketing and automation platform based on December 2023
+            publicly available data on competitors' number of customers.
+          </li>
+          <li>
+            3 SMS Marketing: SMS is available as an add-on to US paid plans only
+            and SMS credits are added to your account after purchase.
+            Application and agreement to terms is required before purchasing
+            credits. Credits are issued monthly and unused credits expire and do
+            not roll over. Pricing varies. MMS is only available on Premium and
+            Standard plans. See terms for details.
+          </li>
+          <li>
+            4 Intuit Assist: Intuit Assist functionality (beta) is available to
+            certain users with Premium, Standard and Legacy plans in select
+            countries in English only. Access to Intuit Assist is available at
+            no additional cost at this time. Pricing, terms, conditions, special
+            features and service options are subject to change without notice.
+            Availability of features and functionality varies by plan type.
+            Features may be broadly available soon but represents no obligation
+            and should not be relied on in making a purchasing decision. For
+            details, please view Mailchimp’s various plans and pricing.
+          </li>
+          <li>
+            5 Personalized onboarding: Onboarding services differ per plan and
+            are available for new or upgraded users with a Standard or Premium
+            plan for the first 90 days after account creation or upgrade.
+            Onboarding services are currently offered in English, Spanish and
+            Portuguese for Premium plans, and in English for Standard plans.
+          </li>
+          <li>
+            6 26X ROI on Standard: Mailchimp users on the Standard plan see up
+            to 26x ROI: All e-comm revenue attributable to Standard plan users'
+            Mailchimp campaigns for Jan '22 - Nov '22 period.
+          </li>
+          <li>
+            7 Up to 7x more orders: Up to 7x more orders with Customer Journey
+            Builder automations generated through users' connected stores versus
+            when they used bulk emails for Jan 1 2022 - Jul 1 2023 period.
+            Features and functionality of CJB varies by plan.
+          </li>
+          <li>
+            8 Up to 141% more revenue: Up to 141% more revenue for users'
+            connected stores using predictive segmented emails versus
+            non-predictive segmented emails for Jan 1 2022–Jul 1 2023 period.
+            Standard and Premium plans only.
+          </li>
+          <li>
+            9 Availability of features and functionality varies by plan type.
+            For details, view plans and pricing.
+          </li>
+          <li>
+            10 39X ROI: All e-comm revenue attributable to paid plan users'
+            Mailchimp campaigns for Aug '21 - July '22 period.
+          </li>
+          <li>
+            11 $1.7K per campaign: Based on e-commerce users subscribed to a
+            paid plan, with campaigns for connected stores that generated
+            revenue between January and November 2022.
+          </li>
+        </ol>
+      </div>
+
+      <footer className="bg-white dark:bg-cream text-black mt-20">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-3 gap-8 px-4 py-6 lg:py-8 md:grid-cols-6">
             <div>
@@ -221,7 +293,6 @@ const Footermeal = () => {
               </ul>
             </div>
           </div>
-          
         </div>
         <div>
           <div>
